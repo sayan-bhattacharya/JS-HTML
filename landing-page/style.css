@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles */
+/* Header Styles */
+header {
+    background-color: lightgreen; /* Change this line */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+   
+}
+
+header p {
+    margin: 10px 0 0 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #343a40;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 5px;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Gallery Styles */
+figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 5px;
+    color: #6c757d;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    figure {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
